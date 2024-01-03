@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "MENTRA regular";
+
+}
+
+hmtl,body{
+    height:100%;
+    width:100%;
+}
+#page1{
+    width:100%;
+    height:100vh;
+    background-color:#dadada;
+    position:relative;
+}
+#cursor{
+    height:7vw;
+    width:7vw;
+    border-radius:50%;
+    position:fixed;
+    z-index:9;
+    background-color:#FF5F38;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    
+}
+.cursor-image{
+    height:8vw;
+    width:8vw;
+    object-fit:cover;
+
+}
+
+#page1 video{
+    width:100%;
+    height:100vh;
+    object-fit:cover;
+    position:absolute;
+}
+#page1-content{
+    height:100%;
+    width:100%;
+    position:relative;
+    z-index:10;
+    display:flex;
+    align-items:center;
+    color:#fff;
+    flex-direction:column;
+    justify-content:space-between;
+  
+}
+nav{
+    width:100%;
+    height:10vh;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:3vw 3vw;
+    
+}
+nav h3{
+    font-size:1.6vw;
+    font-family: "MENTRA regular";
+    font-weight:50;
+ 
+    letter-spacing: 3px;
+  
+}
+nav h4{
+    font-size:1.4vw;
+    font-family: "MENTRA regular";
+    font-weight:50;
+    letter-spacing:20;
+    letter-spacing: 3px;
+}
+#page1-content h1{
+    font-size:22vw;
+    font-family: "Modak";
+    font-weight:20;
+    letter-spacing:20;
+    padding-top:35vh;
+    
+    
+}
+#page1-content span{
+    font-size:22vw;
+    font-family: "Modak";
+    font-weight:20;
+    letter-spacing:20;
+    padding-top:35vh;
+    
+}
+#page2{
+    width:100%;
+    height:100vh;
+    background-color:#fff;
+    position:relative;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
