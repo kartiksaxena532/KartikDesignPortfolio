@@ -2,17 +2,30 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "MENTRA regular";
+   
 
 }
 
+@font-face{
+    font-family: "bask";
+    src: url(BASKVILL.TTF);
+
+}
+
+@font-face {
+    font-family: "mons";
+    src: url(MONTSERRAT-EXTRABOLD.TTF);
+}
+
+
+
 hmtl,body{
-    height:100%;
+    height:100vh;
     width:100%;
 }
 #page1{
     width:100%;
-    height:100vh;
+    height:100%;
     background-color:#dadada;
     position:relative;
 }
@@ -42,7 +55,7 @@ hmtl,body{
     position:absolute;
 }
 #page1-content{
-    height:100%;
+    height:100vh;
     width:100%;
     position:relative;
     z-index:10;
@@ -66,7 +79,6 @@ nav h3{
     font-size:1.6vw;
     font-family: "MENTRA regular";
     font-weight:50;
- 
     letter-spacing: 3px;
   
 }
@@ -74,7 +86,6 @@ nav h4{
     font-size:1.4vw;
     font-family: "MENTRA regular";
     font-weight:50;
-    letter-spacing:20;
     letter-spacing: 3px;
 }
 #page1-content h1{
@@ -83,8 +94,6 @@ nav h4{
     font-weight:20;
     letter-spacing:20;
     padding-top:35vh;
-    
-    
 }
 
 
@@ -93,15 +102,93 @@ nav h4{
     font-family: "Modak";
     font-weight:20;
     letter-spacing:20;
-    padding-top:35vh;
+   
     
 }
 #page2{
     width:100%;
-    height:100vh;
+
     background-color:#fff;
-    position:relative;
-    display:flex;
-    align-items:center;
-    justify-content:center;
+
+    font-family:"BASVILL" ;
 }
+
+#page2-top{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-bottom: 1.2vw;
+    
+    border-bottom: 1px solid #00000092;
+}
+
+#page2-top h3{
+    font-size:1.7vw;
+    font-weight:500;
+    width:26%;
+    font-family:"BASVILL" ;
+}
+#page2-top h4{
+    font-size:1.7vw;
+    font-weight:500;
+    font-family:"BASVILL" ;
+}
+
+.elem{
+    overflow:hidden;
+}
+.elem h1{
+    font-size:4.2vw;
+    font-family:"BASVILL" ;
+    font-weight:500;
+}
+
+#page3{
+  
+    min-height:100vh;
+    width:100%;
+    background-color:#fff;
+    font-family:"bask";
+    position:relative;
+    justify-content:center;
+    align-items:center; 
+    padding-top:10vw;
+}
+#page3-top{
+    text-align: center;
+    font-family:"bask";
+    gap:20px;
+}
+#page3-top h4{
+margin-bottom:1vw;
+font-size:2vw;
+font-weight:500;
+font-family:"bask";
+}
+#page3-top h4 span{
+    font-size:1.2vw;
+    font-weight:500;
+    background-color:black;
+    color:white;
+    padding: 4px 8px;
+    border-radius: 20px;
+    font-family:"bask";
+    }
+    #page3-top h4 span:hover{
+        font-size:1.2vw;
+        font-weight:500;
+        background-color:red;
+        color:white;
+        padding: 4px 8px;
+        border-radius: 20px;
+        font-family:"bask";
+        cursor: pointer;
+        }
+
+
+#page3-top h2{
+    margin-bottom:1vw;
+    font-size:5vw;
+    font-weight:500;
+    font-family:"bask";
+    }
