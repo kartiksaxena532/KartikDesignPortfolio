@@ -55,6 +55,7 @@ page1Content.addEventListener("mouseleave",function(){
     })
 })
 }
+
 cursoreffect()
 
 function page2Animation(){

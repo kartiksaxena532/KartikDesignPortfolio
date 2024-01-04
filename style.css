@@ -144,7 +144,6 @@ nav h4{
 }
 
 #page3{
-  
     min-height:100vh;
     width:100%;
     background-color:#fff;
@@ -152,7 +151,7 @@ nav h4{
     position:relative;
     justify-content:center;
     align-items:center; 
-    padding-top:10vw;
+    padding:10vw;
 }
 #page3-top{
     text-align: center;
@@ -191,4 +190,40 @@ font-family:"bask";
     font-size:5vw;
     font-weight:500;
     font-family:"bask";
+    }
+    #page3-elements{
+        height:75vh;
+        width:100%;
+     
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+        marign-top:10vw;
+    }
+    #page3-elements .box{
+        height:100%;
+        width:32.5%;
+        border-radius:100;
+        position:relative;
+    }
+    #page3-elements .box video{
+
+        height:100%;
+        width:100%;
+        object-fit:cover;
+        object-position:center;
+  
+        
+    }
+    #page3-elements .box img{
+        height:100%;
+        width:100%;
+        object-fit:cover;
+        object-position:center;
+        border-radius:100;
+        position:absolute;
+    }
+    #page3-elements .box:hover img{
+       opacity:0;
+        transition: all linear 0.7s; 
     }
