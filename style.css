@@ -14,9 +14,18 @@
 
 @font-face {
     font-family: "mons";
-    src: url(MONTSERRAT-EXTRABOLD.TTF);
+    src: url("fonts/MONTSERRAT-EXTRABOLD.TTF");
 }
 
+@font-face {
+    font-family: "Modak";
+    src: url("fonts/MODAK-REGULAR.TTF");
+}
+
+@font-face {
+    font-family: "MENTRA regular";
+    src: url("fonts/MENTRA.OTF");
+}
 
 
 hmtl,body{
@@ -89,11 +98,14 @@ nav h4{
     letter-spacing: 3px;
 }
 #page1-content h1{
-    font-size:22vw;
+    font-size:20vw;
     font-family: "Modak";
     font-weight:20;
     letter-spacing:20;
-    padding-top:35vh;
+    padding:0px;
+    padding-top :35vh;
+    margin: 0!important;
+    
 }
 
 
@@ -101,7 +113,10 @@ nav h4{
     font-size:22vw;
     font-family: "Modak";
     font-weight:20;
-    letter-spacing:20;
+    letter-spacing:20; 
+    padding:0px;
+    margin: 0!important;
+    line-height:0px;
    
     
 }
@@ -151,12 +166,13 @@ nav h4{
     position:relative;
     justify-content:center;
     align-items:center; 
-    padding:10vw;
+    padding:5vw 10vw ;
 }
 #page3-top{
     text-align: center;
     font-family:"bask";
     gap:20px;
+    position:relative;
 }
 #page3-top h4{
 margin-bottom:1vw;
@@ -182,6 +198,7 @@ font-family:"bask";
         border-radius: 20px;
         font-family:"bask";
         cursor: pointer;
+        
         }
 
 
@@ -190,6 +207,7 @@ font-family:"bask";
     font-size:5vw;
     font-weight:500;
     font-family:"bask";
+
     }
     #page3-elements{
         height:75vh;
@@ -244,6 +262,53 @@ font-family:"bask";
     height:100vh;
     width:100%;
     background-color:#fff;
-    font-family:"bask";
+    font-family:"mons";
+    padding: 4vw 0vw;
+    position: relative;
+    font-size: 7vw;
+
 
 }
+#page5 h1{
+    font-size: 10vw;
+    font-weight: 500;
+    border-bottom: 1px solid black;
+    width:96%;
+    margin:2%;
+
+    
+}
+#swiperjs{
+height: 60vh;
+width:100%;
+
+position:relative;
+}
+.swiper {
+    width: 130%;
+    height: 100%;
+    margin-top:-5%;
+  }
+
+  .swiper-slide {
+    width:400px ;
+    text-align: center;
+    font-size: 18px;
+  
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin-bottom:10vw;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 19%;
+    
+    object-fit: cover;
+  }
+
+  .swiper {
+    margin-left: auto;
+    margin-right: auto;
+  }
