@@ -76,7 +76,7 @@ gsap.from(".elem h1",{
 }
 page2Animation()
 
-var swiper = new Swiper(".mySwiper", {
+function swiper() {var swiper = new Swiper(".mySwiper", {
   slidesPerView: 1,
   spaceBetween: 20,
   loop: true,
@@ -84,4 +84,42 @@ var swiper = new Swiper(".mySwiper", {
     delay: 2500,
     disableOnInteraction: true,
   },
-});
+});}
+
+swiper()
+
+function page3Animation(){
+var t1=gsap.timeline()
+
+t1.from("#loader h3",{
+    x:40,
+    opacity:0,
+    duration:1,
+    stagger:0.1,
+
+})
+
+t1.to("#loader h3",{
+opacity:0,
+x:-10,
+duartion:1,
+stagger:-0.1,
+})
+
+t1.to("#loader",{
+  opacity:0,
+
+})
+
+
+t1.to("#loader",{
+  display:"none",
+})
+t1.from("#page1-content h1 span",{
+  y:100,
+opacity:0,
+stagger:0.1,
+
+})
+}
+page3Animation()
