@@ -27,6 +27,12 @@
     src: url("fonts/MENTRA.OTF");
 }
 
+@font-face {
+    font-family: "dunno";
+    src: url("fonts/GLSNECB.TTF");
+}
+
+
 
 hmtl,body{
     height:100vh;
@@ -334,4 +340,17 @@ position:relative;
   }
   #loader h3{
     font-size:4vw;
+  }
+
+  #footer{
+    height:10vh;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    gap:100px;
+    font-size:2vw;
+    font-family:dunno;
+    margin-bottom:-100px;
+    decoration:none !important; 
+    
   }
