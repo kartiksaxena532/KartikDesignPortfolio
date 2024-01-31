@@ -354,3 +354,38 @@ position:relative;
     decoration:none !important; 
     
   }
+  #page6{
+    position:relative;
+    z-index:4;
+    height:100vh;
+    width:100%;
+  }
+
+  .Batmantext{
+    position:absolute;
+    font-size:6rem;
+    justify-content:center;
+    font-family: "MENTRA regular";
+    z-index:5;
+    text-color:white;
+  }
+  .block {
+    position:absolute;
+    height: 50px;
+    width: 150px;
+    background-color:#FF2C3D ;
+    z-index:5;
+    bottom: 8px;
+    right: 16px;
+   
+  }
+  .Batmantext2{
+    position:absolute;
+    font-size:6rem;
+    justify-content:center;
+    font-family: "MENTRA regular";
+    z-index:6;
+    text-color:white;
+    bottom: 8px;
+    right: 16px;
+  }
