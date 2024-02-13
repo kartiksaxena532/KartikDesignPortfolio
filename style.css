@@ -76,9 +76,12 @@ hmtl,body{
     z-index:10;
     display:flex;
     align-items:center;
-    color:#fff;
+    color:#ffff;
     flex-direction:column;
     justify-content:space-between;
+    -webkit-text-stroke-width: 1.5px;
+            -webkit-text-stroke-color: black;
+
   
 }
 
