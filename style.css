@@ -85,7 +85,7 @@ hmtl,body{
     color:#ffff;
     flex-direction:column;
     justify-content:space-between;
-    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-width: 1px;
             -webkit-text-stroke-color: black;
 
   
