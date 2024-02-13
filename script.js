@@ -123,3 +123,57 @@ stagger:0.1,
 })
 }
 page3Animation()
+
+
+document.addEventListener("DOMContentLoaded", function() {
+  var parcoursBoxes = document.querySelectorAll(".parcours-box");
+  for (var i = 0; i < parcoursBoxes.length; i++) {
+    parcoursBoxes[i].classList.remove("parcours-active");
+  }
+  
+  document.querySelector(".round1").addEventListener("click", function() {
+    document.querySelectorAll(".tl-round").forEach(function(round) {
+      round.style.backgroundColor = "rgb(85, 69, 69)";
+    });
+    document.querySelector(".round1").style.backgroundColor = "white";
+    document.querySelector(".parcours-active").classList.remove("parcours-active");
+    document.querySelector(".parc1").classList.add("parcours-active");
+    document.querySelector(".timeline-indicator").style.width = "0";
+  });
+  
+  document.querySelector(".round2").addEventListener("click", function() {
+    document.querySelectorAll(".tl-round").forEach(function(round) {
+      round.style.backgroundColor = "rgb(85, 69, 69)";
+    });
+    document.querySelector(".round1").style.backgroundColor = "white";
+    document.querySelector(".round2").style.backgroundColor = "white";
+    document.querySelector(".parcours-active").classList.remove("parcours-active");
+    document.querySelector(".parc2").classList.add("parcours-active");
+    document.querySelector(".timeline-indicator").style.width = "240px";
+  });
+  
+  document.querySelector(".round3").addEventListener("click", function() {
+    document.querySelectorAll(".tl-round").forEach(function(round) {
+      round.style.backgroundColor = "rgb(85, 69, 69)";
+    });
+    document.querySelector(".round1").style.backgroundColor = "white";
+    document.querySelector(".round2").style.backgroundColor = "white";
+    document.querySelector(".round3").style.backgroundColor = "white";
+    document.querySelector(".parcours-active").classList.remove("parcours-active");
+    document.querySelector(".parc3").classList.add("parcours-active");
+    document.querySelector(".timeline-indicator").style.width = "480px";
+  });
+  
+  document.querySelector(".round4").addEventListener("click", function() {
+    document.querySelectorAll(".tl-round").forEach(function(round) {
+      round.style.backgroundColor = "rgb(85, 69, 69)";
+    });
+    document.querySelector(".round1").style.backgroundColor = "white";
+    document.querySelector(".round2").style.backgroundColor = "white";
+    document.querySelector(".round3").style.backgroundColor = "white";
+    document.querySelector(".round4").style.backgroundColor = "white";
+    document.querySelector(".parcours-active").classList.remove("parcours-active");
+    document.querySelector(".parc4").classList.add("parcours-active");
+    document.querySelector(".timeline-indicator").style.width = "720px";
+  });
+});
