@@ -447,13 +447,16 @@ position:relative;
     justify-content: space-evenly;
     align-items: flex-end;
     margin-bottom:10vw;
+    object-fit:cover;
+        object-position:center;
   }
 
   .swiper-slide img {
-    display: block;
+    height : 95%;
     width: 19%;
-    
-    object-fit: cover;
+    object-fit:cover;
+    object-position:center;
+   
   }
 
   .swiper {
