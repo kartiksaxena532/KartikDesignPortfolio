@@ -17,6 +17,6 @@ Skills: NEXT / TAILWIND / NODE / MONGO
 
 - 🔭 I’m currently working on this page.
 
-
+Updated
 
 
