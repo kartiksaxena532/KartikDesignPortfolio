@@ -115,12 +115,21 @@ t1.to("#loader",{
 t1.to("#loader",{
   display:"none",
 })
+
 t1.from("#page1-content h1 span",{
   y:100,
 opacity:0,
 stagger:0.1,
 
 })
+
+gsap.to("#page3-top",{
+  scrollTrigger: "#page3-top",
+  delay:1,
+  duration:2.5,
+ease: "power1.out",
+})
+
 }
 page3Animation()
 
